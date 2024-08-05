@@ -1,0 +1,29 @@
+.txt1{
+    border: 15px;
+    color:darkolivegreen;
+}
+
+body{
+    background: url(img/ceufundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100wh;
+    padding: 0;
+    margin: 0;
+}
+
+.im1{
+    background-image: url(img/mito2-removebg-preview.png);
+    height: 1000px;
+    width: 1000%;
+}
+
+.im1{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.im1:hover{
+    -webkit-transform: rotateZ(3600deg);
+    transform: rotateZ(3600deg);
+}
